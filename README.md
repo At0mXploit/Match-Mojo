@@ -1,6 +1,16 @@
 # Match-Mojo
 TF-IDF content similarity and TMDB genre-based suggestions using Cosine similarity.
 
+[Frontend](https://match-mojo.streamlit.app/)
+
+<img width="1364" height="605" alt="2026-01-06_20-28_1" src="https://github.com/user-attachments/assets/4895e18a-7b90-48d8-9054-0304429bd562" />
+
+<img width="1365" height="614" alt="2026-01-06_20-28" src="https://github.com/user-attachments/assets/9b73c045-5f47-44c1-8cd9-be70bdc2fed6" />
+
+[Backend](https://match-mojo.onrender.com/docs)
+
+<img width="1365" height="603" alt="2026-01-06_20-25" src="https://github.com/user-attachments/assets/83f5f5ad-c952-4d42-9bb3-685c97c28e4a" />
+
 ```bash
 MatchMojo/
 ├── app.py               # Streamlit frontend (UI)
