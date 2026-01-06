@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-API_BASE = "https://movie-rec-466x.onrender.com" or "http://127.0.0.1:8000"
+API_BASE = "https://match-mojo.onrender.com/" or "http://127.0.0.1:8000"
 TMDB_IMG = "https://image.tmdb.org/t/p/w500"
 
 st.set_page_config(page_title="MatchMojo", page_icon="📽️", layout="wide")
@@ -323,4 +323,5 @@ elif st.session_state.view == "details":
             else:
                 st.warning("No recommendations are currently available.")
     else:
+
         st.warning("Unable to generate recommendations without a valid title.")
